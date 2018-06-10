@@ -1,0 +1,20 @@
+
+
+<table>
+   {% for item in all_entries %}
+   <tr>
+      <td>{{ item.distance}}</td>
+      <td>{{ item.consume}}</td>
+      <td>{{ item.speed}}</td>
+      <td>{{ item.temp_inside}}</td>
+      <td>{{ item.temp_outside}}</td>
+      <td>{{ item.specials}}</td>
+      <td>{{ item.gas_type}}</td>
+      <td>{{ item.AC}}</td>
+      <td>{{ item.rain}}</td>
+      <td>{{ item.sun}}</td>
+   </tr>
+   {% endfor %}
+</table>
+
+
